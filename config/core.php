@@ -12,13 +12,4 @@
       }
    }
    $core = new core;
-
    $site = mysqli_fetch_array(db::query("select * from `site` where id = 1"));
-   $site_set = [
-      'header' => true,
-      'menu' => true,
-      'footer' => true,
-      'footer_c' => true,
-   ];
-   $css = [];
-   $js = [];

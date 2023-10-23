@@ -4,9 +4,17 @@
    $lang = 'ru';
    if (isset($_GET['lang'])) if ($_GET['lang'] == 'kz' || $_GET['lang'] == 'ru') $_SESSION['lang'] = $_GET['lang'];
    if (isset($_SESSION['lang'])) $lang = $_SESSION['lang'];
-
+   
    // 
-   $ver = 2.111;
+   $ver = 2.23;
+   $site_set = [
+      'header' => true,
+      'menu' => true,
+      'footer' => true,
+      'footer_c' => true,
+   ];
+   $css = [];
+   $js = [];
 
    // date - time
    $date = date("Y-m-d", time());

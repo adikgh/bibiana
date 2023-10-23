@@ -1,5 +1,5 @@
 <!--  -->
-	<a target="_blank" href="tel:<?=$site[phone]?>">
+	<a target="_blank" href="tel:<?=$site['phone']?>">
 		<div type="button" class="callback-bt">
 		   <i class="fa fa-phone"></i>
 		</div>
@@ -11,11 +11,6 @@
 		   <i class="fab fa-whatsapp"></i>
 		</div>
 	</a>
-
-
-
-
-
 
 <!--  -->
 	<div class="zabr_nom">
@@ -48,6 +43,17 @@
 
 
 <!--  -->
-<div class="bl_mess">
-	<div class="bl_mess_sam"></div>
-</div>
+	<div class="rrr_nom">
+		<div class="slim_zak rrr_back"></div>
+		<div class="rrr_cont">
+			<div class="rrr_cont_img">
+				<img src="" class="lazy_img" alt="">
+			</div>
+		</div>
+	</div>
+
+
+<!--  -->
+	<div class="bl_mess">
+		<div class="bl_mess_sam"></div>
+	</div>
