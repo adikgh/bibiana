@@ -260,6 +260,86 @@
 					<i class="fas fa-caret-left"></i>
 				</div> -->
 			</div>
+
+			<div class="blo7_c">
+				<div class="swiper blo7_Swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="player_o1" data-plyr-provider="youtube" data-plyr-embed-id="UpYfcElatus"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="player_o2" data-plyr-provider="youtube" data-plyr-embed-id="GSSY0mhtDEk"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="player_o3" data-plyr-provider="youtube" data-plyr-embed-id="inc1dmGmiT8"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="player_o4" data-plyr-provider="youtube" data-plyr-embed-id="6yjQsoBi3-8"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="player_o5" data-plyr-provider="youtube" data-plyr-embed-id="5yCAdUHTVKU"></div>
+						</div>
+						<div class="swiper-slide">
+							<div class="player_o6" data-plyr-provider="youtube" data-plyr-embed-id="cBfcTno5zbE"></div>
+						</div>
+					</div>
+					<!-- <div class="swiper-pagination o7_pagination"></div> -->
+
+					<script>
+						var blo7_Swiper = new Swiper(".blo7_Swiper", {
+							effect: "creative",
+							speed: 600,
+							resistanceRatio: 0,
+							grabCursor: !0,
+							parallax: !0,
+							creativeEffect: {
+								limitProgress: 3,
+								perspective: !0,
+								shadowPerProgress: !0,
+								prev: {
+									shadow: !0,
+									translate: ["-15%", 0, -200]
+								},
+								next: {
+									translate: ["calc(100% + 20px)", 0, 0]
+								}
+							},
+							pagination: {
+								el: ".o7_pagination",
+								dynamicBullets: true,
+							},
+						});
+
+						const player_o1 = new Plyr(".player_o1",{
+							fullscreen: {iosNative: true},
+							controls: ['play-large'],
+							// poster: '/assets/img/result/chrome_0oD9KqL9vH.jpg',
+						});
+						const player_o2 = new Plyr(".player_o2",{
+							fullscreen: {iosNative: true},
+							controls: ['play-large'],
+						});
+						const player_o3 = new Plyr(".player_o3",{
+							fullscreen: {iosNative: true},
+							controls: ['play-large'],
+						});
+						const player_o4 = new Plyr(".player_o4",{
+							fullscreen: {iosNative: true},
+							controls: ['play-large'],
+						});
+						const player_o5 = new Plyr(".player_o5",{
+							fullscreen: {iosNative: true},
+							controls: ['play-large'],
+						});
+						const player_o6 = new Plyr(".player_o6",{
+							fullscreen: {iosNative: true},
+							controls: ['play-large'],
+						});
+					</script>
+
+				</div>
+			</div>
+
 			<div class="bl5_c">
 				<div class="swiper-container bl5_con">
 					<div class="swiper-wrapper">

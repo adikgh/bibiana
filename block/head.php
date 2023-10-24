@@ -42,6 +42,7 @@
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" /> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.6/swiper-bundle.min.css" />
 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
 
 <!-- main css -->
 <link rel="stylesheet" type="text/css" href="/assets/css/norm.css?v=<?=$ver?>" />
@@ -56,8 +57,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.6/swiper-bundle.min.js"></script>
 <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> --> 
+<script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
 
-
+<!--  -->
 <? if ($site['metrika'] != null): ?>
 	<script type='text/javascript'>
 		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
